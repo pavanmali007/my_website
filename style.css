@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    /* imp */
+    background-color: #11131d;
+
+    /* background-color: #021327; */
+
+}
+
+#navbar{
+    display: flex;
+    width: 100%;
+    height: 10%;
+    background-color: #1b1f2e;
+}
+
+#ul{
+    display: flex;
+    width: 51%;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    margin: 5px;
+    padding-left: 60px;
+    /* background-color: goldenrod; */
+
+}
+
+#ul li{
+    display: flex;
+    justify-content: space-around;
+    /* background-color: black; */
+    
+
+}
+
+.pages{
+    text-decoration: none;
+    font-size: normal;
+    text-transform: capitalize;
+    font-family: sans-serif;
+    background-color: #1b1f2e;
+    color: rgb(222, 222, 222);
+    width: 100%;
+    padding: 8px 12px;
+    cursor: pointer;
+    border: 1px solid rgb(147, 156, 255);
+    border-radius: 5px;
+}
+
+.pages:hover{
+    text-decoration: none;
+    font-size: normal;
+    text-transform: capitalize;
+    font-family: sans-serif;
+    background-color: #1b1f2e;
+    color: rgb(150, 150, 150);
+    width: 100%;
+    padding: 10px 12px;
+    cursor: pointer;
+    border: 1px solid rgb(222, 222, 222);
+    border-radius: 5px;
+}
+
+.container{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 35px;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 400px;
+    /* border: 2px solid rgb(147, 199, 255); */
+    /* border: 1px solid rgb(222, 222, 222); */
+
+    border-radius: 7px;
+    /* background-color: #0a0c12; */
+    margin-top: 30px;
+}
+
+.contents{
+    display: flex;
+    margin: 0px 1px;
+    width: 250px;
+    height: 95px;
+    background-color: rgb(41, 41, 41);
+    padding: 4px;
+    /* border: 2px solid rgb(122, 122, 122); */
+    border: 1px solid rgb(147, 199, 255);
+    border-radius: 7px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+.contents:hover{
+    display: flex;
+    margin: 0px 1px;
+    width: 250px;
+    height: 95px;
+    background-color: rgb(47, 47, 47);
+    padding: 4px;
+    /* border: 2px solid rgb(122, 122, 122); */
+    border: 1px solid rgb(70, 122, 170);
+    border-radius: 7px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+.contents p{
+    text-transform: capitalize;
+    color: rgb(222, 222, 222);
+    cursor: auto;
+
+}
+
