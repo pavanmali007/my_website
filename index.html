@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website Home Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav id="navbar" class="navbar">
+        <ul id="ul">
+            <li>
+                <a class="pages" id="homes" onclick="return navclick('homes')">home</a>
+            </li>
+            <li>
+                <a class="pages" id="websites" onclick="return navclick('websites')">websites</a>
+            </li>
+            <li>
+                <a class="pages" id="yt-channels" onclick="return navclick('yt-channels')">YT Channels</a>
+            </li>
+            <li>
+                <a class="pages" id="others" onclick="return navclick('others')">other</a>
+            </li>
+        </ul>
+    </nav>
+
+    <section class="container" id="first-container">
+        <div class="contents" id="first-content" onclick="navclick('home')">
+            <p>home</p>
+        </div>
+        <div class="contents" id="second-content" onclick="navclick('sudo power')">
+            <p>sudo power</p>
+        </div>
+        <div class="contents" id="third-content" onclick="navclick('google')">
+            <p>google</p>
+        </div>
+        <div class="contents" id="forth-content" onclick="navclick('youtube')">
+            <p>youtube</p>
+        </div>
+        <div class="contents" id="fifth-content" onclick="navclick('cwh')">
+            <p>cwh</p>
+        </div>
+        <div class="contents" id="sixth-content" onclick="navclick('hyperQuest')">
+            <p>hyperQuest</p>
+        </div>
+        <div class="contents" id="seventh-content" onclick="navclick('w3Schools')">
+            <p>w3Schools</p>
+        </div>
+        <div class="contents" id="eighth-content" onclick="navclick('other')">
+            <p>other</p>
+        </div>
+    </section>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
