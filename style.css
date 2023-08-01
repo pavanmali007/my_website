@@ -57,6 +57,8 @@ body{
     cursor: pointer;
     border: 1px solid rgb(147, 156, 255);
     border-radius: 5px;
+    transition: all ease 0.5s;
+
 }
 
 .pages:hover{
@@ -92,33 +94,39 @@ body{
 
 .contents{
     display: flex;
-    margin: 0px 1px;
-    width: 250px;
+    margin: 10px 1px;
+    width: 17vh;
     height: 95px;
     background-color: rgb(41, 41, 41);
     padding: 4px;
     /* border: 2px solid rgb(122, 122, 122); */
     border: 1px solid rgb(147, 199, 255);
-    border-radius: 7px;
+    /* border-radius: 7px; */
+    border-radius: 20px;
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    transition: all ease 0.5s;
 
 }
 
 .contents:hover{
     display: flex;
-    margin: 0px 1px;
-    width: 250px;
-    height: 95px;
-    background-color: rgb(47, 47, 47);
+    margin: 10px 1px;
+    width: 28vh;
+    height: 170px;
+    background-color: rgb(43, 43, 43);
     padding: 4px;
     /* border: 2px solid rgb(122, 122, 122); */
-    border: 1px solid rgb(70, 122, 170);
-    border-radius: 7px;
+    border: 1px solid rgb(48, 84, 117);
+    /* border-radius: 7px; */
+    border-radius: 90px;
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    /* box-shadow: 7px 7px 10px rgb(47, 82, 114); */
+    filter: drop-shadow(7px 7px 10px rgb(47, 82, 114));
+    /* filter: drop-shadow(7px 7px 10px rgb(136, 176, 213)); */
 
 }
 
